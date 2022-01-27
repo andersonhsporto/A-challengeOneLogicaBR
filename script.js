@@ -9,7 +9,7 @@ const decriptString = (regex, obj) => {
 }
 
 const cript = document.querySelector('#criptograph')
-const descriptograph = document.querySelector('#descriptograph')
+const descrip = document.querySelector('#descriptograph')
 const copy = document.querySelector('#copy')
 const response = document.querySelector('#response');
 
@@ -20,7 +20,7 @@ cript.addEventListener('click', () => {
 })
 
 
-descriptograph.addEventListener('click', () => {
+descrip.addEventListener('click', () => {
     decriptString(/ai|enter|imes|ober|ufat/g, 
         {'ai':'a','enter':'e','imes':'i','ober':'o','ufat':'u'})
 })
